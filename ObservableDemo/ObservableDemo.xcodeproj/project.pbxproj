@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F406729D24DE51E80043E089 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F406729C24DE51E80043E089 /* SecondView.swift */; };
 		F489DDED24DC2AA4004A3FF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489DDEC24DC2AA4004A3FF9 /* AppDelegate.swift */; };
 		F489DDEF24DC2AA4004A3FF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489DDEE24DC2AA4004A3FF9 /* SceneDelegate.swift */; };
 		F489DDF124DC2AA4004A3FF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F489DDF024DC2AA4004A3FF9 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F406729C24DE51E80043E089 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		F489DDE924DC2AA4004A3FF9 /* ObservableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObservableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F489DDEC24DC2AA4004A3FF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F489DDEE24DC2AA4004A3FF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				F489DDEC24DC2AA4004A3FF9 /* AppDelegate.swift */,
 				F489DDEE24DC2AA4004A3FF9 /* SceneDelegate.swift */,
 				F489DDF024DC2AA4004A3FF9 /* ContentView.swift */,
+				F406729C24DE51E80043E089 /* SecondView.swift */,
 				F489DDF224DC2AA5004A3FF9 /* Assets.xcassets */,
 				F489DDF724DC2AA5004A3FF9 /* LaunchScreen.storyboard */,
 				F489DDFA24DC2AA5004A3FF9 /* Info.plist */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F489DDED24DC2AA4004A3FF9 /* AppDelegate.swift in Sources */,
+				F406729D24DE51E80043E089 /* SecondView.swift in Sources */,
 				F489DE0124DC2AC8004A3FF9 /* TimerData.swift in Sources */,
 				F489DDEF24DC2AA4004A3FF9 /* SceneDelegate.swift in Sources */,
 				F489DDF124DC2AA4004A3FF9 /* ContentView.swift in Sources */,
