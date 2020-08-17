@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  ObservableDemo
+//  AlignmentTool
 //
-//  Created by SUYOUNG KIM on 2020/08/06.
+//  Created by SUYOUNG KIM on 2020/08/08.
 //  Copyright © 2020 SUYOUNG KIM. All rights reserved.
 //
 
@@ -21,13 +21,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView()
-        
-        let timerData = TimerData()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: contentView.environmentObject(timerData))
+            window.rootViewController = UIHostingController(rootView: contentView)
             self.window = window
             window.makeKeyAndVisible()
         }

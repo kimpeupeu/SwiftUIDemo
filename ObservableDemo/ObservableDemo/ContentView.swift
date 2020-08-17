@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var timerData: TimerData = TimerData()
+    @EnvironmentObject var timerData: TimerData
 
     var body: some View {
         NavigationView {
@@ -21,6 +21,9 @@ struct ContentView: View {
                 Button(action: resetCount) {
                     Text("Reset Counter")
                 }
+                NavigationLink(destination: SecondView()) {
+                    Text("Next Screen")
+                }.padding()
             }
         }
     }
@@ -32,6 +35,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(TimerData())
     }
 }
