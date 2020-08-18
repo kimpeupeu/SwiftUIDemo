@@ -32,6 +32,7 @@
 		F4484A4E24E92CAA00A00C61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4484A4D24E92CAA00A00C61 /* Preview Assets.xcassets */; };
 		F4484A5124E92CAA00A00C61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4484A4F24E92CAA00A00C61 /* LaunchScreen.storyboard */; };
 		F4484A5E24E93A0D00A00C61 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4484A5D24E93A0D00A00C61 /* CircleImage.swift */; };
+		F45A7AFD24EB75F6005D23CA /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45A7AFC24EB75F6005D23CA /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		F4484A5024E92CAA00A00C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4484A5224E92CAA00A00C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4484A5D24E93A0D00A00C61 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F45A7AFC24EB75F6005D23CA /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				F4484A4824E92CA900A00C61 /* LandmarkDetail.swift */,
 				F400645824EA127C0041C6E2 /* LandmarkRow.swift */,
 				F400645C24EA1AB80041C6E2 /* LandmarkList.swift */,
+				F45A7AFC24EB75F6005D23CA /* UserData.swift */,
 				F4484A4A24E92CAA00A00C61 /* Assets.xcassets */,
 				F4484A5D24E93A0D00A00C61 /* CircleImage.swift */,
 				F400643924EA0BB20041C6E2 /* MapView.swift */,
@@ -240,6 +243,7 @@
 				F4484A4924E92CA900A00C61 /* LandmarkDetail.swift in Sources */,
 				F400645924EA127C0041C6E2 /* LandmarkRow.swift in Sources */,
 				F400643D24EA10170041C6E2 /* Landmark.swift in Sources */,
+				F45A7AFD24EB75F6005D23CA /* UserData.swift in Sources */,
 				F400645B24EA14F70041C6E2 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
